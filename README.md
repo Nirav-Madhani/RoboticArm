@@ -4,8 +4,8 @@ Aim : To train robot with joints, each having 2 DOF to reach target.
 
 
 
-Method(s): Deep Reinforcement Learning <br>
-Reward(s): Extrinsic + Generative Adversarial Imitation Learning + Curriculum Learning (Not Implemented) <br>
+Method(s): Deep Reinforcement Learning + Curriculum Learning (Not Implemented)<br>
+Reward(s): Extrinsic + Generative Adversarial Imitation Learning  <br>
 
 
 Observation Vector: <br>
