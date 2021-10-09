@@ -2,11 +2,24 @@
 
 Aim : To train robot with joints, each having 2 DOF to reach target.
 
-Method(s): Deep Reinforcement Learning
-Reward(s): Extrinsic + Generative Adversarial Imitation Learning + Curriculum Learning (Not Implemented)
-Observation Vector:
-  Position of Each Joint and Target
+
+
+Method(s): Deep Reinforcement Learning <br>
+Reward(s): Extrinsic + Generative Adversarial Imitation Learning + Curriculum Learning (Not Implemented) <br>
+
+
+Observation Vector: <br>
+ * Position of Each Joint and Target <br>
+
+
 Action:
-  Rotation Input Along each of two axis for 4 joints.
+*  Rotation Input Along each of two axis for 4 joints.
+
+Intrinsic Reward Criteria:
+  - <-1> for each time step
+  - <-Big Value> for collision with itself (Robot) + End of Episode
+  - <+Big Value> for getting within sphere of certain radius with target at its center.
+  - <-Big Value> for getting out of sphere of certain radius with target at its center.
+  - <+Very Big Value> for touching the target.
   
  
