@@ -23,3 +23,11 @@ Intrinsic Reward Criteria:
   - <+Very Big Value> for touching the target.
   
  
+Training Demo:
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77914957/144712097-5e83fa0e-1746-447f-a33c-cf2a143f3835.gif)
+
+Left: Model Testing | Right: Recording Demonstration
+
+![ezgif com-gif-maker(1)](https://user-images.githubusercontent.com/77914957/144712146-25e0b029-c3ba-4366-90d1-93daa8a848a9.gif)
